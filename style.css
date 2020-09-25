@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#canvas {
+  border: 5px solid grey;
+  margin-left: 0.5rem;
+}
+
+.top {
+  padding-left: 0.3em;
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+.Clear {
+  margin-left: 0.5rem;
+  padding: 0.2rem 0.5rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  border: solid grey 1px;
+}
+
+.Clear:hover {
+  text-decoration: line-through;
+}
