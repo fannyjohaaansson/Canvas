@@ -10,11 +10,12 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("Photos/pawel-czerwinski-aMPfitH2tT0-unsplash.jpg");
+  background-image: url("Photos/pawel-czerwinski-aMPfitH2tT0-unsplash.jpg"); */
 }
 
 .container {
   /*background-color: lightgrey; */
+
   width: 700px;
   height: 900px;
   padding: 30px;
@@ -107,7 +108,6 @@ button {
 .eraser {
   width: 3rem;
   height: 3rem;
-  border: none;
   background-color: #ffffff;
   background-image: url(./Photos/eraser.png);
   background-position: center;

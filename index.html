@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Drawing Canvas</title>
     <link rel="stylesheet"href="./style.css"></link>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
 </head>
@@ -15,26 +15,21 @@
          <canvas id="canvas"></canvas>
          <div class="sizebuttons">
             <p class="brush">Brush Size</p>
-            <button class="SmallPencil"></button> <br>
-            <button class="MediumPencil"></button><br>
-            <button class="LargePencil"></button><br>
-            
-       
+            <button class="SmallPencil" aria-label="Small-brush"></button> <br>
+            <button class="MediumPencil" aria-label="Medium-brush"></button><br>
+            <button class="LargePencil" aria-label="Large-brush"></button><br>
         </div>
    <div class="colors">
-    <button class="colorblack"></button>
-        <button class="colorred"></button>
-        <button class="colorblue"></button>
-        <button class="colorgreen"></button>
-        <button class="coloryellow"></button>
-        <button class="colorbrown"></button>
-        <button class="eraser"></button> <br>
+    <button class="colorblack" aria-label="Black-brush"></button>
+        <button class="colorred" aria-label="Red-brush"></button>
+        <button class="colorblue" aria-label="Blue-brush"></button>
+        <button class="colorgreen" aria-label="Green-brush"></button>
+        <button class="coloryellow" aria-label="Yellow-brush"></button>
+        <button class="colorbrown" aria-label="Brown-brush"></button>
+        <button class="eraser" aria-label="Eraser-brush"></button> <br>
         <button class="Clear">Clear canvas</button> 
-        
    </div>
-  
 </div>
-
     <script src="app.js"></script>
 </body>
 </html>
